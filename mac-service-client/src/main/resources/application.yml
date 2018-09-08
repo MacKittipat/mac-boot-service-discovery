@@ -1,0 +1,3 @@
+eureka:
+  client: # EurekaClientConfigBean / EurekaServerConfigBean
+    registerWithEureka: false
