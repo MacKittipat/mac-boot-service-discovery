@@ -1,11 +1,13 @@
 server:
-  port: 9000
+  port: 9001
 
 spring:
   application:
     name: user-service
 
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/

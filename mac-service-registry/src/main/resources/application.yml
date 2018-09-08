@@ -2,6 +2,8 @@ server:
   port: 8761
 
 eureka:
+  instance:
+    preferIpAddress: true
   client: # EurekaClientConfigBean / EurekaServerConfigBean
     registerWithEureka: false
     fetchRegistry: false
