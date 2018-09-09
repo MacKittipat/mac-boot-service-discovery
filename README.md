@@ -40,3 +40,8 @@ mvn clean install
 docker build -t mac-service-client .
 docker run -d -e eurekaServiceUrl=http://service-registry:8761/eureka/,http://service-registry2:8761/eureka/ --network mac-net mac-service-client
 ```
+
+## Send request 
+```
+curl http://localhost:9001/users/1
+```
