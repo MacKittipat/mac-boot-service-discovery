@@ -3,7 +3,7 @@
 ## Create network
 
 ```
- docker network create mac-net
+docker network create mac-net
 ```
 
 ## Run mac-service-registry
